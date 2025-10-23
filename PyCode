@@ -1,0 +1,10 @@
+import numpy as np
+import pandas as pd
+from google.colab import drive
+import scipy as sp
+import csv
+
+drive.mount('/content/drive')
+
+Spotify = pd.read_csv('/content/drive/My Drive/spotify_churn_dataset.csv')
+Spotify.head()
